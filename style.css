@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: 'Playfair Display', serif;
 }
 
 a {
@@ -10,14 +11,33 @@ a {
 
 h1 {
     margin: 0;
+    font-size: 30px;
+    font-weight: 400;
+    color: #626262;
 }
 
 h2 {
-     margin: 0;
+    margin: 0;
+    font-size: 28px;
+    font-weight: 400;
+    color: #626262;
 }
 
 p {
     margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: #626262;
+    line-height: 24px;
+
+}
+
+span {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
 }
  /* HEADER */
  header {
@@ -27,7 +47,10 @@ p {
  }
 
  header a {
-      margin-left: 130px;
+      margin-left: 140px;
+      font-size: 14px;
+      font-weight: 400;
+      color: #626262;
  }
 
 /* MAIN */
@@ -59,6 +82,14 @@ main {
 
 .first-post p {
     margin-bottom: 52px;
+}
+
+.first-post a {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #b4ad9e;
+    text-transform: uppercase;
 }
 
 /* posts */
@@ -100,8 +131,7 @@ main {
 }
 
 .posts-row div p {
-    line-height: 18px;
-    height: 54px;
+    height: 72px;
     overflow: hidden;
 }
 
@@ -121,8 +151,8 @@ main {
 
 .newsletter h2 {
     margin-bottom: 83px;
-    font-size: 30px;
     letter-spacing: .75px;
+    color: #333333;
 }
 
 .email-address {
@@ -138,6 +168,10 @@ main {
     padding: 10px;
     font-size: 14px;
     box-sizing: border-box;
+    color: #626262;
+    line-height: 24px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
 }
 
 .email-address button {
@@ -151,16 +185,21 @@ main {
 
 /*button*/
 
-.button {
+.load-more {
     margin-bottom: 135px;
     text-align: center;
 }
 
 button {
     padding: 22px 34px;
-    border: 2px solid #F0F0F0;
+    border: 1px solid #626262;
     background: #fff;
-
+    cursor: pointer;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #626262;
 }
 
  /* FOOTER */
@@ -173,7 +212,10 @@ button {
  }
 
  footer a {
-     margin-right: 25px;
+     margin-right: 17px;
+     font-size: 14px;
+     font-weight: 400;
+     color: #000000;
  }
   
 footer div a:first-child {
