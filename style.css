@@ -1,0 +1,185 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+h1 {
+    margin: 0;
+}
+
+h2 {
+     margin: 0;
+}
+
+p {
+    margin: 0;
+}
+ /* HEADER */
+ header {
+     display: flex;
+     justify-content: space-between;
+     padding: 20px 40px;
+ }
+
+ header a {
+      margin-left: 130px;
+ }
+
+/* MAIN */
+ 
+main {
+   
+}
+
+/* FIRST POST */
+.first-post {
+    display: flex;
+    flex-direction: column;
+    padding: 72px 70px 135px;
+}
+
+.first-post-image {
+    height: 510px;
+    width: 1061px;
+    margin: 0 auto 99px;
+}
+
+.first-post span {
+    margin-bottom: 28px;
+}
+
+.first-post h1 {
+    margin-bottom: 34px;
+}
+
+.first-post p {
+    margin-bottom: 52px;
+}
+
+/* posts */
+
+.posts {
+    padding: 0px 150px;
+}
+
+.posts .posts-row:first-child {
+    margin-bottom: 132px;
+}
+
+.posts .posts-row:last-child {
+    margin-bottom: 122px;
+}
+
+.posts-row > div:first-child {
+    margin-right: 60px;
+}
+
+.posts-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.post-image {
+    height: 279px;
+    margin-bottom: 32px;
+}
+
+.posts-row div span {
+    display: inline-block;
+    margin-bottom: 28px;
+}
+
+.posts-row div h2 {
+    margin-bottom: 34px;
+}
+
+.posts-row div p {
+    line-height: 18px;
+    height: 54px;
+    overflow: hidden;
+}
+
+
+/* NEWS LETTER*/
+.newsletter {
+    margin-bottom: 103px;
+    width: 100%;
+    height: 287px;
+    background-color: #F0F0F0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.newsletter h2 {
+    margin-bottom: 83px;
+    font-size: 30px;
+    letter-spacing: .75px;
+}
+
+.email-address {
+    width: 390px;
+    display: flex;
+}
+
+.email-address input {
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent;
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.email-address button {
+    border: none;
+    border-bottom: 1px solid #000;
+    background: transparent url('img/send-icon.png') no-repeat center;
+    outline: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+/*button*/
+
+.button {
+    margin-bottom: 135px;
+    text-align: center;
+}
+
+button {
+    padding: 22px 34px;
+    border: 2px solid #F0F0F0;
+    background: #fff;
+
+}
+
+ /* FOOTER */
+ footer {
+     display: flex;
+     justify-content: space-between;
+     height: 97px;
+     background-color: #F0F0F0;
+     align-items: center;
+ }
+
+ footer a {
+     margin-right: 25px;
+ }
+  
+footer div a:first-child {
+    margin-left: 150px;
+}
+
+footer div a:last-child {
+    margin-right: 70px;
+}
